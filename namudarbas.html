@@ -2,9 +2,92 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <meta name="author" content="Donatas Samelis">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <meta name="description" content="Namu darbas is vienos su puse mokymu kursu savaites programos">
+
+        <style>
+        div.a {
+          text-align: center;
+        }
+        table, tr, td {
+          border: 1px solid #000;
+        }
+        div.a {
+        text-align: center;
+        }
+
+        p.a {
+        white-space: nowrap;
+        }
+        </style>
         <title>Namu darbas 18.06.06</title>
     </head>
     <body>
-        <h1>Lentele</h1>
+        <header>
+        <h1>Namu darbas</h1>
+        <h2>Paprasta lentele</h2>
+        <p>paragrafas tieisog</p> <br> <br>
+        </header>
+        <article>
+            Straipsnis zymimas "article" apie bananus. hahaha. cia panaudotas line braker br ---> <br> <br>
+            Bananai yra svarbus energijos šaltinis. Juose daug angliavandenių – sacharozės, fruktozės, gliukozės, vitaminų, mineralinių medžiagų.  Du bananai suteikia pakankamai energijos 90 minučių trukmės intensyviai mankštai, todel šiuos vaisius ypač vertina sportininkai. <br> <br>
+        </article>
+        <main>
+        <table>
+            <section>
+            <tr>
+                <th> <b>Nr</b> </th>
+                <!-- th ir td keicia lenteles border, turbut nes th nurodo jog tai yra lenteles virsus -->
+                <th> <b>Vardas</b> </th>
+            </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>Donatas Karolis Jurgis</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Rytis</td>
+                </tr>
+            </section>
+        </table>
+
+        <table style="width:50%">
+            <hr>
+            <h2>Lentele Nr. 2</h2>
+            <section>
+                <div class="a">
+                    <p> skolininkai </p>
+                </div>
+                <tr>
+                    <th>Nr</th>
+                    <th>vardas</th>
+                    <th>Skola milijonais eu</th>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>Jurgis+Karolis+RZD</td>
+                    <td> <div class="a">
+                     50 </div> </td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Erzikas</td>
+                    <td> <div class="a">
+                     10 </div> </td>
+                </tr>
+                <tr>
+                    <tfoot>
+                        <td> <p class="a"> </td>
+                        <td> <div class="a"> <b>
+                         Viso: </b> </div> </td>
+                        <td> <div class="a">
+                        50
+                        </div> </td>
+                    </tfoot>
+                </tr>
+            </section>
+        </table>
+    </main>
     </body>
 </html>
