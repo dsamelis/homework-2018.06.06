@@ -24,6 +24,14 @@
         <title>Namu darbas 18.06.06</title>
     </head>
     <body>
+        <section>
+        <nav>
+            <a href="http://autogidas.lt">autogidas</a> |
+            <a href="http://autoplius.lt">autoplius</a> |
+            <a href="http://youtube.com">youtube</a> |
+            <a href="http://google.lt">google</a>
+            </nav>
+        </section>
         <header>
         <h1>Namu darbas</h1>
         <h2>Paprasta lentele</h2>
@@ -138,6 +146,46 @@
             </figure>
         </section>
         <hr>
+        <h2>Migtukai</h2>
+        <section>
+            <!-- trys skirtingi tipai migtuku -->
+            <button type="button" name="button">paprastas</button> <br> <br>
+            <button type="submit" name="button">submit, reikia naudoti su form</button> <br> <br>
+            <button type="button" onclick="alert('labukas')">Ismeta alert langa</button> <br> <br>
+        </section>
     </main>
+    <h3>Forma</h3>
+    <section>
+        <form class="" action="https://telia.lt" method="post">
+            Vardas: <br>
+            <input type="text" name="vardas" value="" placeholder="irasykite varda"> <br>
+            Email: <br>
+            <input type="Email" name="emailas" value="@gmail.com"> <br>
+            Gimtadienis: <br>
+            <input type="date" name="gimtadienis" value=""> <br>
+            Svoris: <br>
+            <input type="number" name="svoris" step="5"> <br>
+            Gyvenimo aprasymas: <br>
+            <textarea name="aprasymas" rows="8" cols="80" placeholder="aprasykite kanors"></textarea> <br> <br> <br>
+            VYRAS
+            <input type="radio" name="Lytis" value="vyras" checked> <br>
+            MOTERIS
+            <input type="radio" name="Lytis" value="moteris"> <br> <br>
+            <p>Ka vairuojate?</p>
+            <input type="checkbox" name="masina" value="bmw"> BMW <br>
+            <input type="checkbox" name="masina" value="vw"> VW <br>
+            <input type="checkbox" name="masina" value="seat"> SEAT <br> <br>
+            Kur gyvenate? <br>
+            <select class="gyvenviete" name="">
+            <option value="gyvenviete">Vilnius</option>
+            <option value="gyvenviete">Kaunas</option>
+        </select> <br> <br>
+        <button type="submit" name="button">Pateikti atsakyma</button>
+        </form>
+    <footer>
+        <h3>ACIU UZ ATSAKYMUS! :)</h3>
+        <p>Donatas Samelis</p>
+    </footer>
+    </section>
     </body>
 </html>
